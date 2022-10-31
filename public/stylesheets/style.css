@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+/*Arranges all the elements in a grid format*/
+#sudoku-grid {
+  display: grid;
+  grid-template-columns: 40px 40px 40px 40px 40px 40px 40px 40px 40px;
+}
+
+/*Styles each cell of the sudoku grid*/
+.cell {
+}
+
+.cell > input {
+  width: 40px;
+  height: 40px;
+}
+
+
+.controls {
+  display: flex;
+  justify-content: space-around;
+  margin: 5vh;
+}
+
+
+button {
+  width: 80px;
+  height: 80px;
+}

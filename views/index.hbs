@@ -1,0 +1,22 @@
+<div class="sudoku">
+
+<h1>This is the {{title}}</h1>
+
+<!--    CREATES THE SUDOKU GRID     -->
+<div id="sudoku-grid">
+
+    <!--    GENERATES ALL THE INPUT ELEMENTS  -->
+    {{#each elements}}
+    <div class="cell"><input type="number" min="1" max="9" name="element-{{this}}" id="element-{{this}}"></div>
+    {{/each}}
+
+</div>
+
+
+    <div class="controls">
+    <button id="submit">Submit</button>
+    <button id="reset">Reset</button>
+    </div>
+
+
+</div>
